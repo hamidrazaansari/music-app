@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+/* CSS for Header Components */
+
+
+.width {
+  width: 89%;
+  border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.firstpara {
+  margin: 99px 0px 0px 66px;
+  font-size: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.secondpara {
+  margin: 14px 0px 0px 314px;
+  font-family: cursive;
+  font-size: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.secondpara .yellow {
+  color: yellow
 }
 
-.App-link {
-  color: #61dafb;
+.secondpara .black {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* CSS For Song Component */
+.songs {
+  width: 90%;
+
+}
+
+.text {
+  color: #ccc;
+  font-size: 1rem;
+  margin: 50px;
+}
+
+hr {
+  width: 78%;
+  float: right;
+  margin: -59px 69px 0px 0px;
+  color: #000;
+  height: 2px;
+}
+
+.hr2 {
+  margin-top: -46px;
+  margin-right: 82px;
+  color: black;
+}
+
+.text2 {
+  color: #ccc;
+  font-size: 1rem;
+  margin: -9px 0px 39px 50px;
+}
+
+.cardStyle {
+  width: 10rem;
+  margin: 5px;
+  border: none;
+  min-width: 110px;
+}
+
+.overflow {
+  overflow-x: auto;
+  margin-left: 12px;
+}
+
+.overflow::-webkit-scrollbar {
+  width: 0px;
+
 }
